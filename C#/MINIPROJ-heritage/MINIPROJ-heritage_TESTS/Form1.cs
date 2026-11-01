@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using exos_poo_membres_heritage;
+using MINIPROJ_heritage;
 
-namespace exos_poo_membres_heritage_TESTS
+namespace MINIPROJ_heritage_TESTS
 {
     public partial class Form1 : Form
     {

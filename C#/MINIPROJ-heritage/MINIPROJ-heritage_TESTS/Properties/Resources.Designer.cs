@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace exos_poo_membres_heritage_TESTS.Properties
+namespace MINIPROJ_heritage_TESTS.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace exos_poo_membres_heritage_TESTS.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("exos_poo_membres_heritage_TESTS.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MINIPROJ_heritage_TESTS.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace exos_poo_membres_heritage_TESTS
+namespace MINIPROJ_heritage_TESTS
 {
     internal static class Program
     {

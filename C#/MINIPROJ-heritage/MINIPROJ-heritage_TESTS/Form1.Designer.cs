@@ -1,4 +1,4 @@
-﻿namespace exos_poo_membres_heritage_TESTS
+﻿namespace MINIPROJ_heritage_TESTS
 {
     partial class Form1
     {

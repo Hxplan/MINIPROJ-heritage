@@ -1,6 +1,6 @@
 using System;
 
-namespace exos_poo_membres_heritage
+namespace MINIPROJ_heritage
 {
     public class Arme
     {

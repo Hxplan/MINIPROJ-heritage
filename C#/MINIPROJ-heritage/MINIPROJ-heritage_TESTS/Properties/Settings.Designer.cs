@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace exos_poo_membres_heritage_TESTS.Properties
+namespace MINIPROJ_heritage_TESTS.Properties
 {
 
 

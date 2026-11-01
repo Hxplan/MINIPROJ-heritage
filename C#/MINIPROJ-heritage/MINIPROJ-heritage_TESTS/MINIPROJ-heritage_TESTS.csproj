@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0F102210-83CB-4706-8020-BC20A1E30872}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>exos_poo_membres_heritage_TESTS</RootNamespace>
-    <AssemblyName>exos_poo_membres_heritage_TESTS</AssemblyName>
+    <RootNamespace>MINIPROJ_heritage_TESTS</RootNamespace>
+    <AssemblyName>MINIPROJ-heritage_TESTS</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -126,9 +126,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\exos_poo_membres_heritage\exos_poo_membres_heritage.csproj">
+    <ProjectReference Include="..\MINIPROJ-heritage\MINIPROJ-heritage.csproj">
       <Project>{ff8925ac-04b5-4f5b-b82e-b757217ad9fe}</Project>
-      <Name>exos_poo_membres_heritage</Name>
+      <Name>MINIPROJ-heritage</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

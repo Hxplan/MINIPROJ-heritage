@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("exos_poo_membres_heritage_TESTS")]
+[assembly: AssemblyTitle("MINIPROJ_heritage_TESTS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Atlas Playbook v0.4.1")]
-[assembly: AssemblyProduct("exos_poo_membres_heritage_TESTS")]
+[assembly: AssemblyProduct("MINIPROJ_heritage_TESTS")]
 [assembly: AssemblyCopyright("Copyright © Atlas Playbook v0.4.1 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
