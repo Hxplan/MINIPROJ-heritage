@@ -33,3 +33,36 @@ CREATE TABLE epee (
     PRIMARY KEY (id),
     CONSTRAINT fk_epee_arme FOREIGN KEY (id) REFERENCES arme(id) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ============================================================================
+-- 4. Données de test (correspondant au scénario du projet)
+-- ============================================================================
+-- Insertion de l'arme générique : Gourdin (id = 1)
+INSERT INTO arme (id, nom, degatsBase, poids) VALUES
+(1, 'Gourdin', 15, 3.0);
+
+-- Insertion de l'épée : Excalibur (id = 2)
+INSERT INTO arme (id, nom, degatsBase, poids) VALUES
+(2, 'Excalibur', 50, 2.5);
+INSERT INTO epee (id, longueurLame, tranchant) VALUES
+(2, 90.0, 25);
+
+-- Insertion de l'épée : Katana (id = 3)
+INSERT INTO arme (id, nom, degatsBase, poids) VALUES
+(3, 'Katana', 40, 1.5);
+INSERT INTO epee (id, longueurLame, tranchant) VALUES
+(3, 75.0, 35);
+
+-- ============================================================================
+-- 5. Requête de vérification (Jointure pour afficher tout l'inventaire)
+-- ============================================================================
+-- SELECT 
+--     a.id, 
+--     a.nom, 
+--     a.degatsBase, 
+--     a.poids, 
+--     e.longueurLame, 
+--     e.tranchant 
+-- FROM arme a
+-- LEFT JOIN epee e ON a.id = e.id;
+
