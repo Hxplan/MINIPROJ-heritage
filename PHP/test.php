@@ -5,15 +5,15 @@ require_once "Epee.class.php";
 
 $saut = (php_sapi_name() === 'cli') ? PHP_EOL : "<br>";
 
-#region Étape 1 : Instanciation et Collection
+#region test 1 : Instanciation et Collection
 
 // 1. Instanciation et Collection
 $inventaire = [];
 
-// Ajout d'une Arme valide : (1, "Gourdin", 15, 3.0)
+// Ajout d'une Arme : (1, "Gourdin", 15, 3.0)
 $inventaire[] = new Arme(1, "Gourdin", 15, 3.0);
 
-// Ajout de 2 Épées valides :
+// Ajout de 2 Épées :
 // (2, "Excalibur", 50, 2.5, 90.0, 25)
 $inventaire[] = new Epee(2, "Excalibur", 50, 2.5, 90.0, 25);
 // (3, "Katana", 40, 1.5, 75.0, 35)
@@ -21,10 +21,10 @@ $inventaire[] = new Epee(3, "Katana", 40, 1.5, 75.0, 35);
 
 #endregion
 
-#region Étape 2 : Boucle Polymorphe
+#region test 2 : Boucle 
 
-// 2. Boucle Polymorphe
-echo "=== 2. Boucle Polymorphe sur l'inventaire ===" . $saut . $saut;
+// 2. Boucle 
+echo "=== 2. Boucle sur l'inventaire ===" . $saut . $saut;
 
 foreach ($inventaire as $arme) {
     echo $arme . " -> Puissance calculée : " . $arme->calculerPuissance() . $saut;
